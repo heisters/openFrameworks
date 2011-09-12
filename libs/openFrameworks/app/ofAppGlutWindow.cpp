@@ -243,7 +243,7 @@ void ofAppGlutWindow::setupOpenGL(int w, int h, int screenMode){
 
 		/*
 		ofBackground(200,200,200);		// default bg color
-		ofSetColor(0xFFFFFF); 			// default draw color
+		ofSetHexColor(0xFFFFFF); 			// default draw color
 		// used to be black, but
 		// black + texture = black
 		// so maybe grey bg
